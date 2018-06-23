@@ -16,10 +16,10 @@ function whisper(string) {
 }
 
 function sayHiToGrandma(string) {
-  if (string.toLowerCase === true)
+  if (string === string.toLowerCase)
   return "I can't hear you!"
   
-  else if (string.toUpperCase === true)
+  else if (string === string.toUpperCase)
   return "YES INDEED!"
   
   else (string === "I love you, Grandma.")
