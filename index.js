@@ -3,6 +3,8 @@ function shout(string) {
   
 }
 
+shout("Hello!")
+
 function whisper(string) {
   return string.toLowerCase()
 }
